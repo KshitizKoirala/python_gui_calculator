@@ -65,7 +65,7 @@ def button_equal():
     elif operation == "multiplication":
         e.insert(0, f_num * int(second_number))
     elif operation == "division":
-        e.insert(0, int(f_num // int(second_number)))
+        e.insert(0, f_num / int(second_number))
 
 
 #Defining buttons
